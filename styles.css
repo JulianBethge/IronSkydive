@@ -238,15 +238,47 @@ td {
   text-align: center;
 }
 
-.address{
-    font-style: normal;
-    font-size: 0.8em;
-    margin-bottom: 30px;
+.slot-form-container{
+    width: 40%;
+    margin: 18px auto 0 auto;
+    font-size: 1.5em;
+    text-align: center;
 }
+
+.slot-form-container label {
+     line-height: 15px;
+     margin: 5px;
+    }
+
+.slot-form-container input, select {
+    height: 22px;
+    outline: none;
+    padding: 3px;
+    width: 100%;
+}
+
+.slot-form-container button{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    padding: 9px;
+    margin-top: 15px;
+
+    /*own*/
+    border-radius: 5px;
+}
+
 
 .footer{
     padding: 40px 100px;
     margin-bottom: 25px;
+}
+
+.address{
+    font-style: normal;
+    font-size: 0.8em;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .footer a{
@@ -257,10 +289,12 @@ td {
 .footer ul{
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 .footer h5{
     margin-top: 0;
     margin-bottom: 0;
+    text-align: center;
 
 }
